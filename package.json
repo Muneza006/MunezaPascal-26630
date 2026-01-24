@@ -2,22 +2,25 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
-    "lucide-react": "^0.263.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vite": "^6.0.7"
+    "vite": "^6.0.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "lucide-react": "^0.263.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "autoprefixer": "^10.4.16",
+    "tailwindcss": "^3.4.0",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.4.0"
+    "autoprefixer": "^10.4.16",
+    "@tailwindcss/postcss": "^4.0.0"
   }
 }
